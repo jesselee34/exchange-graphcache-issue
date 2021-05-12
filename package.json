@@ -1,0 +1,20 @@
+{
+  "name": "urql-issue",
+  "version": "0.0.0",
+  "description": "Set up to reproduce a possible issue with @urql/exchange-graphcache",
+  "main": "index.js",
+  "author": "jesselee34",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "lerna run --parallel start"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "workspaces": {
+    "packages": [
+      "workspaces/*"
+    ]
+  }
+}
