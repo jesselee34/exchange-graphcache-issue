@@ -33,7 +33,7 @@ exports.resolvers = {
 
   Mutation: {
     setCount: async (_, { count }) => {
-      await pause(5000)
+      await pause(2000)
       store.count = count;
       
       return {
